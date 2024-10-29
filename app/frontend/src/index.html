@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAplication</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="main-title">
+                Practica#7: Aplicación Web
+            </h1>
+            <hr class="gradient-hr">
+            <div class="icons-container">
+                <p class="icons-title">
+                    MADE WITH
+                </p>
+                <div class="icons">
+                    <a href="https://www.docker.com/">
+                        <span class="logos--docker-icon icon"></span>
+                    </a>
+                    <a href="https://nodejs.org/en">
+                        <span class="logos--nodejs-icon icon"></span>
+                    </a>
+                    <a href="https://expressjs.com/">
+                        <span class="skill-icons--expressjs-dark icon"></span>
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                        <span class="vscode-icons--file-type-html icon"></span>
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                        <span class="vscode-icons--file-type-css icon"></span>
+                    </a>
+                    <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript">
+                        <span class="skill-icons--javascript icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-head">
+                <h1>About</h1>
+                <p>
+                    Aplicacion Web sencilla que registra mensajes en un archivo { JSON <span class="bxs--file-json"></span> } mediante una API hecha con < Express <span class="skill-icons--expressjs-dark"></span> >, donde todo esta aislado en contenedores utilizando [ Docker <i class="fab fa-docker icon docker-icon"></i> ]. 
+                </p>
+            </div>
+            <div class="form-body">
+                <div class="form-inputs">
+                    <div class="input-message">
+                        <input type="text" id="nameInput" placeholder="Message" />
+                    </div>
+                    <button type="button" id="buttonAdd">Añadir +</button>
+                </div>
+                <div class="form-messagess" id="formMessagess"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
